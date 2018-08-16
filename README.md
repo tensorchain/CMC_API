@@ -6,11 +6,11 @@ The cmc_btc_api.py script pulls user specified token price and stores the value 
 
 #### Token & Currency Selection
 
-...
+```python
 
 Code block
 
-...
+```
 
 
 ## Asset Modeling
