@@ -8,7 +8,8 @@ The cmc_btc_api.py script pulls user specified token price and stores the value 
 
 ```python
 
-Code block
+timesstamp = js["metadata"]["timestamp"]
+btcvalue = js["data"]["1"]["quotes"]["USD"]["price"]
 
 ```
 
