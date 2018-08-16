@@ -40,9 +40,9 @@ timesstamp = js["metadata"]["timestamp"]
 coinvalue = js["data"]["1958"]["quotes"]["USD"]["price"]
 ```
 
-#### II. SQL DB Transfer
+#### II. SQL Database Transfer
 
-To transfer the data to a database, adjust line 22's link to reflect the target database:
+To transfer the data to a database, adjust the "sqlite_file" link to reflect the target database:
 
 ```
 sqlite_file = 'C:/Users/Tom/Documents/Quant/Database Files/btcusd.sqlite3'
@@ -50,6 +50,10 @@ conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
 c.execute('INSERT INTO coinprice (Time, USDprice) VALUES (?, ?)', (timesconvert, coinvalue))
 ```
+
+####  III. SQL to CSV Conversion
+
+The volatility_mod.m post-pocessing script only accepts csv files for input. Therefore, the user should first output the database list as a csv file prior to running the volatility_mod.m script. To 
 
 
 ## Token Price Modeling
