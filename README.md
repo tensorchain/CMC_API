@@ -8,7 +8,7 @@ The cmc_btc_api.py script pulls user specified token price and stores the value 
 
 The CoinMarketCap (CMC) JSON v2 ticker schema packages coin information into high level key-value pairs in which coin properties are stored in a dictionary corresponding to the coin ID key. Within the dictionary, key-value pairs provide coin property information, such as name, abbreviated symbol, circulating supply, total supply, and maximum supply. The "quotes" key contains dictionaries of the USD exchange rate properties for the coin.     
 
-For example, the TRON 
+Below is an example showing the location of the TRON USD price value. It is located as the value pair to the "price" key inside the "USD" dictionary, which is subsequently part of the "quotes" dictionary: 
 
 ```
 "1958": {
@@ -32,6 +32,7 @@ For example, the TRON
             }, 
             "last_updated": 1534433753
 ```
+To adjust the python script
 
 ```
 timesstamp = js["metadata"]["timestamp"]
