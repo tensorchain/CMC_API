@@ -33,14 +33,16 @@ Below is an example showing the location of the TRON USD price value. It is loca
             }, 
             "last_updated": 1534433753
 ```
-To adjust the python script
+To pull specific token exchange USD price values, simply adjust the corresponding dictionary number in the second bracket of line 19 in cmc_btc_api.py. For example, inputting "1958" in the bracket between "data" and "quotes" produces TRON USD exchange prices: 
 
 ```
 timesstamp = js["metadata"]["timestamp"]
-coinvalue = js["data"]["1"]["quotes"]["USD"]["price"]
+coinvalue = js["data"]["1958"]["quotes"]["USD"]["price"]
 ```
 
 #### II. SQL DB Transfer
+
+
 
 ```
 sqlite_file = 'C:/Users/Tom/Documents/Quant/Database Files/btcusd.sqlite3'
