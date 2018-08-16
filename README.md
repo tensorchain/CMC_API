@@ -52,6 +52,10 @@ c.execute('INSERT INTO btcprice (Time, USDprice) VALUES (?, ?)', (timesconvert, 
 ```
 
 
-## Asset Modeling
+## Token Price Modeling
 
-The asset
+The volatility_mod.m script  
+
+#### I. Import Token Prices
+
+The 
