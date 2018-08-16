@@ -1,2 +1,7 @@
 # Asset Management
-Data pull API and asset modeling
+
+## CMC Price Pull
+
+The cmc_btc_api.py script pulls the 
+
+
