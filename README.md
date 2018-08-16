@@ -42,13 +42,13 @@ coinvalue = js["data"]["1958"]["quotes"]["USD"]["price"]
 
 #### II. SQL DB Transfer
 
-
+To transfer the data to a database, adjust line 22's link to reflect the target database:
 
 ```
 sqlite_file = 'C:/Users/Tom/Documents/Quant/Database Files/btcusd.sqlite3'
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
-c.execute('INSERT INTO btcprice (Time, USDprice) VALUES (?, ?)', (timesconvert, btcvalue))
+c.execute('INSERT INTO coinprice (Time, USDprice) VALUES (?, ?)', (timesconvert, coinvalue))
 ```
 
 
