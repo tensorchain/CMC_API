@@ -1,4 +1,4 @@
-# Asset Management
+# Scripts Guide
 
 ## CoinMarketCap Price Pull
 
