@@ -76,4 +76,4 @@ The analysis output results are:
 
 #### I. Import Token Prices
 
-The 
+The first step 
