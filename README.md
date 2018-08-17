@@ -58,7 +58,10 @@ The volatility_mod.m post-pocessing script only accepts csv files for input. The
 
 ## Token Price Modeling
 
-The volatility_mod.m script  
+The volatility_mod.m script runs the imported token price data through several processing steps to create analysis outputs. These include:
+
+1. ddd
+2. ddd
 
 #### I. Import Token Prices
 
