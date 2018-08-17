@@ -60,7 +60,7 @@ The volatility_mod.m post-pocessing script only accepts csv files for input. The
 
 The volatility_mod.m script runs the imported token price data through several processing steps to create analysis outputs. These include:
 
-1. Normality Testing of Token Daily Returns Using Pearson Chi Square Test
+1. Normality Testing of Token Daily Returns via Pearson Chi Square Test
 2. Modeling Daily Volatility via GARCH(1,1) Maximum Likelihood Estimate
 3. Auto-Correlation and Ljung-Box Test for GARCH(1,1) Results
 4. Modeling Daily Volatility via Expoentially Weighted Moving Average (EWMA)
