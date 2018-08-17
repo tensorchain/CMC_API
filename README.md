@@ -59,7 +59,7 @@ The volatility_mod.m post-pocessing script only accepts csv files for input. The
 
 In the pop-up window, select the active table and click OK. Navigate to the directory in which volatility_mod.m will access the csv file, and save the file. 
 
-<a href="url"><img src="https://i.imgur.com/4jAaFbg.png" align="center" height="400" width="500"></a>
+<a href="url"><img src="https://i.imgur.com/4jAaFbg.png" align="center" height="500" width="600"></a>
 
 Verify the file exists in the target directory and proceed to price modeling. 
 
