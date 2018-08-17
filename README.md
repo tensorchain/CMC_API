@@ -67,7 +67,12 @@ The volatility_mod.m script runs the imported token price data through several p
 
 The output includes:
 
-1. 
+1. P-Value from Normality Testing
+2. Omega, Alpha, and Beta Constants from GARCH(1,1) Modeling
+3. GARCH(1,1) Long-Term Volatility
+4. Auto-Correlation Graph
+5. Returns Distribution and Asset Price Distribution Histograms
+6. Asset Spot Price vs. Volatility Models Time Series Charts
 
 #### I. Import Token Prices
 
