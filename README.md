@@ -58,7 +58,7 @@ The volatility_mod.m post-pocessing script only accepts csv files for input. The
 
 ## Token Price Modeling
 
-The volatility_mod.m script runs the imported token price data through several processing steps to create analysis outputs. The processing steps are:
+The volatility_mod.m script processes the token price data through four steps, resulting in six analysis outputs. The processing steps are:
 
 1. Normality Testing of Token Daily Returns via Pearson Chi Square Test
 2. Modeling Daily Volatility via GARCH(1,1) Maximum Likelihood Estimate
