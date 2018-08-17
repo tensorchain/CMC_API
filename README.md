@@ -53,7 +53,7 @@ c.execute('INSERT INTO coinprice (Time, USDprice) VALUES (?, ?)', (timesconvert,
 
 ####  III. SQL to CSV Conversion
 
-The volatility_mod.m post-pocessing script only accepts csv files for input. Therefore, the user should first output the database list as a csv file prior to running the volatility_mod.m script. To output the csv file, first start the DB Browser for SQLite software and open the database file containing the token prices by navigating to **File** -> **Open Database**. Then navigate to **File** -> **Export** -> **Table(s) as CSV file...**. 
+The volatility_mod.m post-pocessing script only accepts csv files for input. Therefore, the user should first output the database list as a csv file prior to running the volatility_mod.m script. To output the csv file, first start the DB Browser for SQLite software and open the database file containing the token prices by navigating to **File** -> **Open Database**. Then navigate to **File** -> **Export** -> **Table(s) as CSV file**. 
 
 In the pop-up window, select the active table and click OK. Navigate to the directory in which volatility_mod.m will access the csv file, and save the file. 
 
