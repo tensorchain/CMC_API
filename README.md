@@ -1,4 +1,4 @@
-# Scripts Guide - For Tian Han Review
+# Tom Mao API Documentation Sample - For Tian Han Review
 
 
 ## CoinMarketCap API Schema
