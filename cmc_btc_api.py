@@ -33,6 +33,8 @@ def printable():
 conn.commit()
 conn.close()
 
+# Test the trigger. 
+
 
 # Store API response in a variable
 #response_dict = r.json()
